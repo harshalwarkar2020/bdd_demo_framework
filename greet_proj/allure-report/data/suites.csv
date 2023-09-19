@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 16 16:54:37 IST 2023","Sat Sep 16 16:54:37 IST 2023","270","","","","","","Registration with valid third data",""
+"passed","Sat Sep 16 16:54:36 IST 2023","Sat Sep 16 16:54:37 IST 2023","293","","","","","","Registration with valid second data",""
+"passed","Sat Sep 16 16:54:35 IST 2023","Sat Sep 16 16:54:36 IST 2023","1492","","","","","","Registration with valid data",""
