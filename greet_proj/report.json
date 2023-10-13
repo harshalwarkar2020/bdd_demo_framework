@@ -1,0 +1,225 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/outline_calculator.feature:11",
+      "name": "Addition of number from table -- @1.1 table",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/outline_calculator.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/outline_calculator.py:4"
+          },
+          "name": "open calculator",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/outline_calculator.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "a",
+                "value": "2"
+              },
+              {
+                "name": "b",
+                "value": "3"
+              }
+            ],
+            "location": "steps/outline_calculator.py:9"
+          },
+          "name": "perform addition on 2 and 3",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/outline_calculator.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "c",
+                "value": "5"
+              }
+            ],
+            "location": "steps/outline_calculator.py:14"
+          },
+          "name": "sum should be 5",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Outline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/outline_calculator.feature:12",
+      "name": "Addition of number from table -- @1.2 table",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/outline_calculator.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/outline_calculator.py:4"
+          },
+          "name": "open calculator",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/outline_calculator.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "a",
+                "value": "4"
+              },
+              {
+                "name": "b",
+                "value": "3"
+              }
+            ],
+            "location": "steps/outline_calculator.py:9"
+          },
+          "name": "perform addition on 4 and 3",
+          "result": {
+            "duration": 0.0009999275207519531,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/outline_calculator.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "c",
+                "value": "7"
+              }
+            ],
+            "location": "steps/outline_calculator.py:14"
+          },
+          "name": "sum should be 7",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Outline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/outline_calculator.feature:13",
+      "name": "Addition of number from table -- @1.3 table",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/outline_calculator.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/outline_calculator.py:4"
+          },
+          "name": "open calculator",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/outline_calculator.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "a",
+                "value": "4"
+              },
+              {
+                "name": "b",
+                "value": "50"
+              }
+            ],
+            "location": "steps/outline_calculator.py:9"
+          },
+          "name": "perform addition on 4 and 50",
+          "result": {
+            "duration": 0.0009999275207519531,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/outline_calculator.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "c",
+                "value": "7"
+              }
+            ],
+            "location": "steps/outline_calculator.py:14"
+          },
+          "name": "sum should be 7",
+          "result": {
+            "duration": 0.0,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\harshalashok_warkar\\study_codes\\bdd_demo\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\harshalashok_warkar\\study_codes\\bdd_demo\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"steps\\outline_calculator.py\", line 16, in step_impl",
+              "    assert context.result == int(c)",
+              "AssertionError"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "Outline"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/outline_calculator.feature:1",
+  "name": "Outline Calculator Functionality",
+  "status": "failed",
+  "tags": []
+}
+]
